@@ -1,0 +1,32 @@
+{
+  "name": "webpack-wechat-group-messages-plugin",
+  "version": "1.0.0",
+  "description": "给企业微信群组发送webHook",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup --config"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uustoboy/webpack-wechat-group-messages-plugin.git"
+  },
+  "author": "uustoboy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uustoboy/webpack-wechat-group-messages-plugin/issues"
+  },
+  "homepage": "https://github.com/uustoboy/webpack-wechat-group-messages-plugin#readme",
+  "keywords": [
+    "webpack"
+  ],
+  "module": "src/index.js",
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "rollup": "^3.29.0"
+  }
+}
